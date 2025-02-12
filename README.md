@@ -20,11 +20,7 @@ Offshore wind energy (OWE) planning is occurring rapidly alongside efforts to un
 Contains the script to process raw data and run all analyses. 
 
 1. Step 1. Create fiootprints based on target species.R  
-This file pulls in cleaned logbook data ('data/LB.ShortForm.with.Hake.Strat 26 Apr 2022.RData') and generates and saves (1) summarized data for within/outside WEA-overlap area statistics ('data/logbook/sp_logbook_hauls_ports_IOPAC_depths.rds') and (2) annual fishing footprints for each landings port and subfishery ('data/PVC/logbook_sp_pvcs_yrs.shp'). 
-
-Users specify which sp (subfishery) is of interest and which PVC (cont) in the kernel density calculation. The script must be run separately for each subfishery and/or choice of PVC. The script relies on functions that can be found in logbook_fishshed_functions.R  
-
-- This script relies on 'LB.ShortForm.with.Hake.Strat.RData' file and the IOPAC look-up table 'iopac_logbook_conversion_table.csv', both in the 'data' folder. 
+This file pulls in cleaned logbook data and generates and saves (1) summarized data for within/outside WEA-overlap area statistics and (2) annual fishing footprints for each landings port and subfishery. Users specify which sp (subfishery) is of interest and which PVC in the kernel density calculation. The script must be run separately for each subfishery and/or choice of PVC. The script relies on functions that can be found in logbook_fishshed_functions.R  
 
 2. Step 2. Calculate risk and create figures
 
