@@ -24,8 +24,6 @@ This file pulls in cleaned logbook data ('data/LB.ShortForm.with.Hake.Strat 26 A
 
 Users specify which sp (subfishery) is of interest and which PVC (cont) in the kernel density calculation. The script must be run separately for each subfishery and/or choice of PVC. The script relies on functions that can be found in logbook_fishshed_functions.R  
 
-- This script relies on 'LB.ShortForm.with.Hake.Strat.RData' file and the IOPAC look-up table 'iopac_logbook_conversion_table.csv', both in the 'data' folder. 
-
 2. Step 2. Calculate risk and create figures
 
 3. Liu et al. groundfish species distribution projections are combined with footprint summaries to generate manuscript summary statistics and figures (script available upon request). 
