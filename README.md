@@ -5,6 +5,8 @@
 
 ##### Please contact Kelly Andrews (kelly.andrews@noaa.gov) or Amanda Warlick (amanda.warlick@noaa.gov) for questions about the code, analysis, or underlying data.
 
+DOI: 10.5281/zenodo.14860946
+
 ________________________________________________________________________________
 
 ## Abstract
